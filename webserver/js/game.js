@@ -68,7 +68,6 @@ var Game = {
         game.load.image('lower_mountain', 'img/lower_mountain.png');
         game.load.image('upper_mountain', 'img/upper_mountain.png');
         game.load.image('debug_message', 'img/debugMessage.png');
-        game.load.spritesheet('newaliens','img/enemy1.png',32,32);
 
         // load all sfx and music
         game.load.audio('music1', 'audio/gradius.mp3');
