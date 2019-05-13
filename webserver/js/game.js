@@ -352,6 +352,11 @@ var Game = {
             alienHealth = 2;
             alienSizeMultiple = 1.5;
         }
+        else if(specialEnemyPer < Math.floor(stage/10){
+            alienImage = 'newaliens';
+            alienHealth = 1;
+            alienSizeMultiple = 1.5;
+        }
         else{
             alienImage = 'invaderBasic';
             alienHealth = 1;
